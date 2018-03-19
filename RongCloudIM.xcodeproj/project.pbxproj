@@ -37,6 +37,8 @@
 		0EF4AE35205FC358001B9EBB /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF4AE2B205FC358001B9EBB /* SafariServices.framework */; };
 		0EF4AE36205FC358001B9EBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF4AE2C205FC358001B9EBB /* UIKit.framework */; };
 		0EF4AE37205FC358001B9EBB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF4AE2D205FC358001B9EBB /* SystemConfiguration.framework */; };
+		0EF4AE3A205FCA87001B9EBB /* NHIMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF4AE39205FCA87001B9EBB /* NHIMViewController.m */; };
+		0EF4AE40205FCE31001B9EBB /* NHConversationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF4AE3F205FCE31001B9EBB /* NHConversationListViewController.m */; };
 		CDB7314A9A96713E0A25A0B0 /* libPods-RongCloudIM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D495A2F750E222A1F2492FD2 /* libPods-RongCloudIM.a */; };
 /* End PBXBuildFile section */
 
@@ -97,6 +99,10 @@
 		0EF4AE2B205FC358001B9EBB /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		0EF4AE2C205FC358001B9EBB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0EF4AE2D205FC358001B9EBB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0EF4AE38205FCA87001B9EBB /* NHIMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHIMViewController.h; sourceTree = "<group>"; };
+		0EF4AE39205FCA87001B9EBB /* NHIMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHIMViewController.m; sourceTree = "<group>"; };
+		0EF4AE3E205FCE31001B9EBB /* NHConversationListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHConversationListViewController.h; sourceTree = "<group>"; };
+		0EF4AE3F205FCE31001B9EBB /* NHConversationListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHConversationListViewController.m; sourceTree = "<group>"; };
 		89569ACF25FAE055DBF29DE7 /* Pods-RongCloudIM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RongCloudIM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RongCloudIM/Pods-RongCloudIM.debug.xcconfig"; sourceTree = "<group>"; };
 		D495A2F750E222A1F2492FD2 /* libPods-RongCloudIM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RongCloudIM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -178,6 +184,10 @@
 				0EF4ADD4205FBEAA001B9EBB /* AppDelegate.m */,
 				0EF4ADD6205FBEAA001B9EBB /* ViewController.h */,
 				0EF4ADD7205FBEAA001B9EBB /* ViewController.m */,
+				0EF4AE38205FCA87001B9EBB /* NHIMViewController.h */,
+				0EF4AE39205FCA87001B9EBB /* NHIMViewController.m */,
+				0EF4AE3E205FCE31001B9EBB /* NHConversationListViewController.h */,
+				0EF4AE3F205FCE31001B9EBB /* NHConversationListViewController.m */,
 				0EF4ADD9205FBEAA001B9EBB /* Main.storyboard */,
 				0EF4ADDC205FBEAA001B9EBB /* Assets.xcassets */,
 				0EF4ADDE205FBEAA001B9EBB /* LaunchScreen.storyboard */,
@@ -447,6 +457,8 @@
 			files = (
 				0EF4ADD8205FBEAA001B9EBB /* ViewController.m in Sources */,
 				0EF4ADE3205FBEAA001B9EBB /* main.m in Sources */,
+				0EF4AE40205FCE31001B9EBB /* NHConversationListViewController.m in Sources */,
+				0EF4AE3A205FCA87001B9EBB /* NHIMViewController.m in Sources */,
 				0EF4ADD5205FBEAA001B9EBB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

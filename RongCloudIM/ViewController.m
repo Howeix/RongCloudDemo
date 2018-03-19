@@ -7,24 +7,28 @@
 //
 
 #import "ViewController.h"
-
+#import "NHIMViewController.h"
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+- (IBAction)clickStart:(UIButton *)sender {
+    
+    NHIMViewController *vc = [[NHIMViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+    
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+    
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 
 @end
