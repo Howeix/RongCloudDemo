@@ -15,6 +15,29 @@
 		0EF4ADE3205FBEAA001B9EBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF4ADE2205FBEAA001B9EBB /* main.m */; };
 		0EF4ADED205FBEAA001B9EBB /* RongCloudIMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF4ADEC205FBEAA001B9EBB /* RongCloudIMTests.m */; };
 		0EF4ADF8205FBEAA001B9EBB /* RongCloudIMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF4ADF7205FBEAA001B9EBB /* RongCloudIMUITests.m */; };
+		0EF4AE0D205FC181001B9EBB /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF4AE0C205FC181001B9EBB /* AssetsLibrary.framework */; };
+		0EF4AE0F205FC18A001B9EBB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF4AE0E205FC18A001B9EBB /* AudioToolbox.framework */; };
+		0EF4AE11205FC1E9001B9EBB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF4AE10205FC1E9001B9EBB /* libc++.tbd */; };
+		0EF4AE13205FC212001B9EBB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF4AE12205FC212001B9EBB /* CFNetwork.framework */; };
+		0EF4AE15205FC2B8001B9EBB /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF4AE14205FC2B8001B9EBB /* CoreAudio.framework */; };
+		0EF4AE17205FC2C8001B9EBB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF4AE16205FC2C8001B9EBB /* CoreGraphics.framework */; };
+		0EF4AE19205FC2DA001B9EBB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF4AE18205FC2DA001B9EBB /* CoreLocation.framework */; };
+		0EF4AE1B205FC2E4001B9EBB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF4AE1A205FC2E4001B9EBB /* CoreMedia.framework */; };
+		0EF4AE1D205FC2FA001B9EBB /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF4AE1C205FC2FA001B9EBB /* CoreTelephony.framework */; };
+		0EF4AE1F205FC302001B9EBB /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF4AE1E205FC301001B9EBB /* CoreVideo.framework */; };
+		0EF4AE21205FC30A001B9EBB /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF4AE20205FC30A001B9EBB /* ImageIO.framework */; };
+		0EF4AE23205FC32F001B9EBB /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF4AE22205FC32F001B9EBB /* libsqlite3.tbd */; };
+		0EF4AE2E205FC358001B9EBB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF4AE24205FC357001B9EBB /* MapKit.framework */; };
+		0EF4AE2F205FC358001B9EBB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF4AE25205FC357001B9EBB /* libz.tbd */; };
+		0EF4AE30205FC358001B9EBB /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF4AE26205FC358001B9EBB /* Photos.framework */; };
+		0EF4AE31205FC358001B9EBB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF4AE27205FC358001B9EBB /* OpenGLES.framework */; };
+		0EF4AE32205FC358001B9EBB /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF4AE28205FC358001B9EBB /* libstdc++.tbd */; };
+		0EF4AE33205FC358001B9EBB /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF4AE29205FC358001B9EBB /* libxml2.tbd */; };
+		0EF4AE34205FC358001B9EBB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF4AE2A205FC358001B9EBB /* QuartzCore.framework */; };
+		0EF4AE35205FC358001B9EBB /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF4AE2B205FC358001B9EBB /* SafariServices.framework */; };
+		0EF4AE36205FC358001B9EBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF4AE2C205FC358001B9EBB /* UIKit.framework */; };
+		0EF4AE37205FC358001B9EBB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF4AE2D205FC358001B9EBB /* SystemConfiguration.framework */; };
+		CDB7314A9A96713E0A25A0B0 /* libPods-RongCloudIM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D495A2F750E222A1F2492FD2 /* libPods-RongCloudIM.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +58,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A782C77F875CC5DB501724E /* Pods-RongCloudIM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RongCloudIM.release.xcconfig"; path = "Pods/Target Support Files/Pods-RongCloudIM/Pods-RongCloudIM.release.xcconfig"; sourceTree = "<group>"; };
 		0EF4ADD0205FBEAA001B9EBB /* RongCloudIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RongCloudIM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF4ADD3205FBEAA001B9EBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0EF4ADD4205FBEAA001B9EBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +75,30 @@
 		0EF4ADF3205FBEAA001B9EBB /* RongCloudIMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RongCloudIMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF4ADF7205FBEAA001B9EBB /* RongCloudIMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RongCloudIMUITests.m; sourceTree = "<group>"; };
 		0EF4ADF9205FBEAA001B9EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EF4AE0C205FC181001B9EBB /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		0EF4AE0E205FC18A001B9EBB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0EF4AE10205FC1E9001B9EBB /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		0EF4AE12205FC212001B9EBB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0EF4AE14205FC2B8001B9EBB /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		0EF4AE16205FC2C8001B9EBB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0EF4AE18205FC2DA001B9EBB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0EF4AE1A205FC2E4001B9EBB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0EF4AE1C205FC2FA001B9EBB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0EF4AE1E205FC301001B9EBB /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		0EF4AE20205FC30A001B9EBB /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		0EF4AE22205FC32F001B9EBB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		0EF4AE24205FC357001B9EBB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0EF4AE25205FC357001B9EBB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		0EF4AE26205FC358001B9EBB /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		0EF4AE27205FC358001B9EBB /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		0EF4AE28205FC358001B9EBB /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		0EF4AE29205FC358001B9EBB /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		0EF4AE2A205FC358001B9EBB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0EF4AE2B205FC358001B9EBB /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		0EF4AE2C205FC358001B9EBB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0EF4AE2D205FC358001B9EBB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		89569ACF25FAE055DBF29DE7 /* Pods-RongCloudIM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RongCloudIM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RongCloudIM/Pods-RongCloudIM.debug.xcconfig"; sourceTree = "<group>"; };
+		D495A2F750E222A1F2492FD2 /* libPods-RongCloudIM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RongCloudIM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +106,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EF4AE2E205FC358001B9EBB /* MapKit.framework in Frameworks */,
+				0EF4AE2F205FC358001B9EBB /* libz.tbd in Frameworks */,
+				0EF4AE30205FC358001B9EBB /* Photos.framework in Frameworks */,
+				0EF4AE31205FC358001B9EBB /* OpenGLES.framework in Frameworks */,
+				0EF4AE32205FC358001B9EBB /* libstdc++.tbd in Frameworks */,
+				0EF4AE33205FC358001B9EBB /* libxml2.tbd in Frameworks */,
+				0EF4AE34205FC358001B9EBB /* QuartzCore.framework in Frameworks */,
+				0EF4AE35205FC358001B9EBB /* SafariServices.framework in Frameworks */,
+				0EF4AE36205FC358001B9EBB /* UIKit.framework in Frameworks */,
+				0EF4AE37205FC358001B9EBB /* SystemConfiguration.framework in Frameworks */,
+				0EF4AE23205FC32F001B9EBB /* libsqlite3.tbd in Frameworks */,
+				0EF4AE21205FC30A001B9EBB /* ImageIO.framework in Frameworks */,
+				0EF4AE1F205FC302001B9EBB /* CoreVideo.framework in Frameworks */,
+				0EF4AE1D205FC2FA001B9EBB /* CoreTelephony.framework in Frameworks */,
+				0EF4AE1B205FC2E4001B9EBB /* CoreMedia.framework in Frameworks */,
+				0EF4AE19205FC2DA001B9EBB /* CoreLocation.framework in Frameworks */,
+				0EF4AE17205FC2C8001B9EBB /* CoreGraphics.framework in Frameworks */,
+				0EF4AE15205FC2B8001B9EBB /* CoreAudio.framework in Frameworks */,
+				0EF4AE13205FC212001B9EBB /* CFNetwork.framework in Frameworks */,
+				0EF4AE11205FC1E9001B9EBB /* libc++.tbd in Frameworks */,
+				0EF4AE0F205FC18A001B9EBB /* AudioToolbox.framework in Frameworks */,
+				0EF4AE0D205FC181001B9EBB /* AssetsLibrary.framework in Frameworks */,
+				CDB7314A9A96713E0A25A0B0 /* libPods-RongCloudIM.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +156,8 @@
 				0EF4ADEB205FBEAA001B9EBB /* RongCloudIMTests */,
 				0EF4ADF6205FBEAA001B9EBB /* RongCloudIMUITests */,
 				0EF4ADD1205FBEAA001B9EBB /* Products */,
+				1C413F66BEBF380187E0F6B9 /* Pods */,
+				FAE4A380372B8956701DDF74 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +205,45 @@
 			path = RongCloudIMUITests;
 			sourceTree = "<group>";
 		};
+		1C413F66BEBF380187E0F6B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89569ACF25FAE055DBF29DE7 /* Pods-RongCloudIM.debug.xcconfig */,
+				0A782C77F875CC5DB501724E /* Pods-RongCloudIM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FAE4A380372B8956701DDF74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EF4AE28205FC358001B9EBB /* libstdc++.tbd */,
+				0EF4AE29205FC358001B9EBB /* libxml2.tbd */,
+				0EF4AE25205FC357001B9EBB /* libz.tbd */,
+				0EF4AE24205FC357001B9EBB /* MapKit.framework */,
+				0EF4AE27205FC358001B9EBB /* OpenGLES.framework */,
+				0EF4AE26205FC358001B9EBB /* Photos.framework */,
+				0EF4AE2A205FC358001B9EBB /* QuartzCore.framework */,
+				0EF4AE2B205FC358001B9EBB /* SafariServices.framework */,
+				0EF4AE2D205FC358001B9EBB /* SystemConfiguration.framework */,
+				0EF4AE2C205FC358001B9EBB /* UIKit.framework */,
+				0EF4AE22205FC32F001B9EBB /* libsqlite3.tbd */,
+				0EF4AE20205FC30A001B9EBB /* ImageIO.framework */,
+				0EF4AE1E205FC301001B9EBB /* CoreVideo.framework */,
+				0EF4AE1C205FC2FA001B9EBB /* CoreTelephony.framework */,
+				0EF4AE1A205FC2E4001B9EBB /* CoreMedia.framework */,
+				0EF4AE18205FC2DA001B9EBB /* CoreLocation.framework */,
+				0EF4AE16205FC2C8001B9EBB /* CoreGraphics.framework */,
+				0EF4AE14205FC2B8001B9EBB /* CoreAudio.framework */,
+				0EF4AE12205FC212001B9EBB /* CFNetwork.framework */,
+				0EF4AE10205FC1E9001B9EBB /* libc++.tbd */,
+				0EF4AE0E205FC18A001B9EBB /* AudioToolbox.framework */,
+				0EF4AE0C205FC181001B9EBB /* AssetsLibrary.framework */,
+				D495A2F750E222A1F2492FD2 /* libPods-RongCloudIM.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EF4ADFC205FBEAA001B9EBB /* Build configuration list for PBXNativeTarget "RongCloudIM" */;
 			buildPhases = (
+				F5CEFB6BB4D5DCBA06C05014 /* [CP] Check Pods Manifest.lock */,
 				0EF4ADCC205FBEAA001B9EBB /* Sources */,
 				0EF4ADCD205FBEAA001B9EBB /* Frameworks */,
 				0EF4ADCE205FBEAA001B9EBB /* Resources */,
+				5996C4747CB80DBA100D45D3 /* [CP] Embed Pods Frameworks */,
+				0B50A8BADE893D26312982C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +374,71 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B50A8BADE893D26312982C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RongCloudIM/Pods-RongCloudIM-resources.sh",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RongCloud.bundle",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/en.lproj",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/zh-Hans.lproj",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/Emoji.plist",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RCConfig.plist",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/JrmfIMLib/JResource.bundle",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/JrmfIMLib/en.lproj",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/JrmfIMLib/zh-Hans.lproj",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/JrmfIMLib/jrmf.cer",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/AlipaySDK/AlipaySDK.bundle",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/JrmfIMLib/WalletResource.bundle",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/BQMM.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RongCloudIM/Pods-RongCloudIM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5996C4747CB80DBA100D45D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RongCloudIM/Pods-RongCloudIM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5CEFB6BB4D5DCBA06C05014 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RongCloudIM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0EF4ADCC205FBEAA001B9EBB /* Sources */ = {
@@ -428,12 +608,21 @@
 		};
 		0EF4ADFD205FBEAA001B9EBB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89569ACF25FAE055DBF29DE7 /* Pods-RongCloudIM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SA5WY6LT22;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IMLib",
+				);
 				INFOPLIST_FILE = RongCloudIM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IMLib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.yeah.howeix.RongCloudIM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -442,12 +631,21 @@
 		};
 		0EF4ADFE205FBEAA001B9EBB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A782C77F875CC5DB501724E /* Pods-RongCloudIM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SA5WY6LT22;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IMLib",
+				);
 				INFOPLIST_FILE = RongCloudIM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IMLib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.yeah.howeix.RongCloudIM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

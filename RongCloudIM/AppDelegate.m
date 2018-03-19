@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <RongIMKit/RongIMKit.h>
 
 @interface AppDelegate ()
 
@@ -16,7 +17,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    //初始化融云SDK
+    [[RCIM sharedRCIM] initWithAppKey:@"0vnjpoad06cnz"];
+    //登录融云服务器
+    [[RCIM sharedRCIM] connectWithToken:@"IzupBguiJvdjwPNOiryIHrp7fFT9vABbLH3OlOTNo9beqxQ5Gq5kGIbGJNRERvovhBZwWv2CpuOMYhX+Koaw1Q==" success:^(NSString *userId) {
+        
+    } error:^(RCConnectErrorCode status) {
+        
+    } tokenIncorrect:^{
+        
+    }];
+    
     return YES;
 }
 
